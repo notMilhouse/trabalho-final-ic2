@@ -51,9 +51,6 @@ void heapSort(int *array, int tamArray)
 	for(int L = tamArray/2; L > 0; L--)
 	{
 		heapify(array, L, tamArray);
-		for(int i = 1; i < tamArray + 1; i++)
-			std::cout << array[i] << " ";
-			std::cout << std::endl;
 	}
 	for( int R = tamArray; R > 1; R--)
 	{
@@ -61,9 +58,6 @@ void heapSort(int *array, int tamArray)
 		swap(&array[1], &array[R]);
 
 		heapify(array, 1, R-1);
-		for(int i = 1; i < tamArray + 1; i++)
-			std::cout << array[i] << " ";
-			std::cout << std::endl;
 
 	}
 }
@@ -82,10 +76,10 @@ int main()
 	
 	heapSort(array, n);
 
-	for(int i = 1; i < n + 1; i++)
+	for(int i = 0; i < n; i++)
 		std::cout << array[i] << " ";
 	
-	std::cout << "Comparacoes: " << comp << " Movimentacoes: " << mov << std::endl;
+	std::cout << "\nComparacoes: " << comp << "\nMovimentacoes: " << mov << std::endl;
 	
 	return 0;
 }

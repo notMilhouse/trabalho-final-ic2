@@ -78,10 +78,11 @@ int main()
 	
 	quickSort(array, n);
 	
-	for(int i = 1; i < n+1; i++)
+	for(int i = 0; i < n; i++)
 		std::cout << array[i] << " ";
 	
 	std::cout << "\nComparacoes: " << comp << "\nMovimentacoes: " << mov << std::endl;
+	
 	return 0;
 }
 

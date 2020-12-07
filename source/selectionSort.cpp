@@ -57,6 +57,7 @@ int main()
 		std::cout << array[i] << " ";
 	
 	std::cout << "\nComparacoes: " << comp << "\nMovimentacoes: " << mov << std::endl;
+
 	return 0;
 }
 
