@@ -1,0 +1,13 @@
+ 
+
+graficos
+analise assintotica e comparacao com comportamento dos graficos
+comentar algoritmos (falando quem eh melhor pra cada tipo de vetor (crescente, aleatorio (caso medio), decrescente))
+
+
+
+----
+
+5 diferentes valores de n: 40, 80, 120, 160, 200
+
+crescente, decrescente, aleatório
